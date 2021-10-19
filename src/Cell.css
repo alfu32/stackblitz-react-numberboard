@@ -1,0 +1,16 @@
+[color='0'] {
+  background: cornsilk;
+}
+[color='1'] {
+  background: darkcyan;
+}
+[color='2'] {
+  background: darkmagenta;
+}
+.cell {
+  cursor: pointer;
+}
+/*.cell:hover {
+  background-color: aliceblue;
+}
+*/

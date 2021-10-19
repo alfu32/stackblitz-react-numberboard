@@ -1,0 +1,19 @@
+.table {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  padding: 10px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+}
+.cell:last-child {
+  border-right: 1px solid black;
+}
+.row:last-child > .cell {
+  border-bottom: 1px solid black;
+}
