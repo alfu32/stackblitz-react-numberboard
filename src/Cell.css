@@ -1,11 +1,11 @@
 [color='0'] {
-  background: cornsilk;
+  background: #faf2d2;
 }
 [color='1'] {
-  background: darkcyan;
+  background: #ecf7f7;
 }
 [color='2'] {
-  background: darkmagenta;
+  background: #ccffff;
 }
 .cell {
   cursor: pointer;
