@@ -4,7 +4,7 @@ import Board from './Board';
 
 export default function App() {
   const [size, setSize] = useState(5);
-  const [alphabet, setAlphabet] = useState('0123456789');
+  // const [alphabet, setAlphabet] = useState('0123456789');
   return (
     <div>
       <h1>
@@ -19,16 +19,16 @@ export default function App() {
         </div>
         <div
           className="cell"
-          onClick={(e) => setSize(size < alphabet.length ? size + 1 : size)}
+          onClick={(e) => setSize(size < 52 ? size + 1 : size)}
         >
           {'>'}
         </div>
-        <select className="cell" onChange={(e) => setAlphabet(e.target.value)}>
+        {/*<select className="cell" onChange={(e) => setAlphabet(e.target.value)}>
           <option value="01234567890">decimal</option>
           <option value="0123456789abcdef">hexa</option>
-        </select>
+        </select>*/}
       </div>
-      <Board size={size} alphabet={alphabet} />
+      <Board size={size} />
     </div>
   );
 }

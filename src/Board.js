@@ -11,7 +11,8 @@ export default function Board({ alphabet, size, children }) {
         return (
           <div className={'row'}>
             {array.map((col, ci) => {
-              return <Cell val={(ri ? alphabet[ri] : '') + alphabet[ci]} />;
+              return <Cell val={(ri * size + ci).toString(size)} />;
+              /*return <Cell val={(ri ? alphabet[ri] : '') + alphabet[ci]} />;*/
             })}
           </div>
         );
