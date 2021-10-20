@@ -1,12 +1,40 @@
-[color='0'] {
-  background: #fffef9;
+[hue='0'] {
+  background: hsl(0, 100%, 50%);
 }
-[color='1'] {
-  background: #ecf7f7;
+[hue='1'] {
+  background: hsl(30, 100%, 50%);
 }
-[color='2'] {
-  background: #ccffff;
+[hue='2'] {
+  background: hsl(60, 100%, 50%);
 }
+[hue='3'] {
+  background: hsl(90, 100%, 50%);
+}
+[hue='4'] {
+  background: hsl(120, 100%, 50%);
+}
+[hue='5'] {
+  background: hsl(150, 100%, 50%);
+}
+[hue='6'] {
+  background: hsl(180, 100%, 50%);
+}
+[hue='7'] {
+  background: hsl(210, 100%, 50%);
+}
+[hue='8'] {
+  background: hsl(240, 100%, 50%);
+}
+[hue='9'] {
+  background: hsl(270, 100%, 50%);
+}
+[hue='10'] {
+  background: hsl(300, 100%, 50%);
+}
+[hue='11'] {
+  background: hsl(330, 100%, 50%);
+}
+
 .cell {
   cursor: pointer;
 }
