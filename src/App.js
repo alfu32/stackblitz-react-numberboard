@@ -22,7 +22,7 @@ export default function App() {
             onClick={(e) => setSize(size < 52 ? size + 1 : size)}
           >{'>'}</div>
           {
-            new Array(10).fill(0).map(
+            new Array(13).fill(0).map(
               (c,i) => {
                 const className = 'cell'+(
                   i == color ? ' selected':''
