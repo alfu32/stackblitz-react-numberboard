@@ -11,6 +11,13 @@
   border-top: 1px solid black;
   text-align: center;
 }
+
+.cell {
+  cursor: pointer;
+}
+.cell.selected{
+  border-bottom:3px solid black;
+}
 .cell:last-child {
   border-right: 1px solid black;
 }

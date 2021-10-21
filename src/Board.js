@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Board.css';
 import Cell from './Cell';
 
-export default function Board({ alphabet, size, children }) {
+export default function Board({ color, alphabet, size, children }) {
   const [vals,setValues] = useState([])
   const array = new Array(size).fill(0);
   const values = [...vals];
@@ -25,7 +25,8 @@ export default function Board({ alphabet, size, children }) {
                   click={
                     e => {
                       console.log(values);
-                      values[index]=0 +((value + 1)%12);
+                      values[index]=value?0:color;
+                      // values[index]=0 +((value + 1)%12);
                       setValues(values);
                     }
                   }
