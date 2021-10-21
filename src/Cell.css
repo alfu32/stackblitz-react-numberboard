@@ -3,6 +3,7 @@
 }
 [hue='1'] {
   background: hsl(0, 100%, 39%);
+  color:whitesmoke;
 }
 [hue='2'] {
   background: hsl(30, 100%, 50%);
@@ -27,15 +28,19 @@
 }
 [hue='9'] {
   background: hsl(240, 100%, 50%);
+  color:whitesmoke;
 }
 [hue='10'] {
   background: hsl(270, 100%, 40%);
+  color:whitesmoke;
 }
 [hue='11'] {
   background: hsl(300, 100%, 41%);
+  color:whitesmoke;
 }
 [hue='12'] {
   background: hsl(330, 100%, 40%);
+  color:whitesmoke;
 }
 
 /*.cell:hover {
