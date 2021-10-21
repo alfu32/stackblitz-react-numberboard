@@ -25,7 +25,8 @@ export default function Board({ color, alphabet, size, children }) {
                   click={
                     e => {
                       console.log(values);
-                      values[index]=value?0:color;
+                      values[index]=color;
+                      // value?0:color;
                       // values[index]=0 +((value + 1)%12);
                       setValues(values);
                     }

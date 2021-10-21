@@ -4,7 +4,7 @@ import Board from './Board';
 
 export default function App() {
   const [size, setSize] = useState(5);
-  const [color, setColor] = useState(5);
+  const [color, setColor] = useState(0);
   // const [alphabet, setAlphabet] = useState('0123456789');
   return (
     <div>
