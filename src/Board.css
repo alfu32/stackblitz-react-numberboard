@@ -15,12 +15,12 @@
 .cell {
   cursor: pointer;
 }
-.cell.selected{
-  border-bottom:3px solid black;
-}
 .cell:last-child {
   border-right: 1px solid black;
 }
 .row:last-child > .cell {
   border-bottom: 1px solid black;
+}
+.cell.selected{
+  border-bottom:3px solid black !important;
 }
