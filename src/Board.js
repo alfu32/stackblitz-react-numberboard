@@ -5,11 +5,13 @@ import Cell from './Cell';
 export default function Board({ color, alphabet, size, children }) {
   const [vals,setValues] = useState([])
   const array = new Array(size).fill(0);
+  const w=parseInt(100/size)+1;
+  const cols = new Array(w).fill(0);
   const values = [...vals];
   return (
     <div className="table">
       <div>{values.length}</div>
-      {array.map((row, ri) => {
+      {cols.map((row, ri) => {
         return (
           <div className={'row'}>
             {array.map((col, ci) => {
